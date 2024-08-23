@@ -1,11 +1,16 @@
+div{
+    width: max;
+}
 body {
-    background-image: url("yarn.jpeg");
+    background-image: url("station.jpg");
     background-size: cover;
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
     text-align: center;
     height: 100vh;
+   
+    
 }
-
 .container {
     background: white;
     max-width: 80%;
@@ -25,26 +30,49 @@ h2 {
     margin-bottom: 20px;
 }
 
-button {
-    border: 1px solid black;
+#increment-btn {
+    border: none;
     padding-top: 10px;
     padding-bottom: 10px;
     color: white;
     font-weight: bold;
-    width: 200px;
+    width: 160px;
     margin-bottom: 5px;
-    border-radius: 5px;
+    border-radius: 50px;
+    background: #0841ab;
+   
+    
 }
-
-#increment-btn {
-    background: #2C2891;
-}
-
 #save-btn {
-    background: #1C7947;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 160px;
+    margin-bottom: 5px;
+    border-radius: 50px;
+    background: #19ab08
+    
 }
 
+
+#increment-btn:hover{
+    background: #073b9c;
+    cursor: pointer;
+    transition: 0.7s;
+    
+}
+
+#save-btn:hover {
+    background: #079f09;
+    cursor: pointer;
+    transition: 0.7s;
+     
+}
 #save-el {
     font-weight: bold;
 }
 
+
+ 
